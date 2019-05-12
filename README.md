@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Google Map
+
+To use Google map create `config.local.json` in `src/` directory with template from `config.template.json`
+and put there your Google Map API key.
 
 ## Available Scripts
 
@@ -17,8 +20,3 @@ You will also see any lint errors in the console.
 ### `npm run build`
 
 ### `npm run eject`
-
-## Google Map
-
-To use Google map create `config.local.json` in `src/` directory with template from `config.template.json`
-and put there your Google Map API key.
