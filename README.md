@@ -3,6 +3,10 @@
 To use Google map create `config.local.json` in `src/` directory with template from `config.template.json`
 and put there your Google Map API key.
 
+## Docker
+
+To build docker container run `docker build -t usr/geo-map .`. After installing run `docker run -p 3000:3000 -d usr/geo-map`
+
 ## Available Scripts
 
 In the project directory, you can run:
