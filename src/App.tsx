@@ -21,8 +21,9 @@ class App extends React.Component {
         </header>
         <Route path='/login' component={() => <Login onLogin={this.header.current} />} />
         <Route exact path='/' render={() => 
-          window.localStorage.getItem('token') ?
-            (<Map />) : (<Redirect to='/login' />)
+          (<Map />)
+          // window.localStorage.getItem('token') ?
+          //   (<Map />) : (<Redirect to='/login' />)
         } />
       </div>
     );
